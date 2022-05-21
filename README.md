@@ -10,12 +10,19 @@ For further documentation see [carray_capi.h](./carray_capi.h).
 
 ### Implementation:
 
-   * [carray] - this Lua modules provides an implemenation of the *Lua Carray C API*.
+   * [carray] - this Lua module provides an implemenation of the *Lua Carray C API*.
+
+
+### Invocations:
+   
+   * [mtmsg] - this Lua module invokes the *Lua Carray C API* to make it possible to pass
+               arrays of primitive numeric C data types to other threads.
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
 [Lua]:      https://www.lua.org
 [carray]:   https://github.com/osch/lua-carray
+[mtmsg]:    https://github.com/osch/lua-mtmsg
 
 
 <!-- ---------------------------------------------------------------------------------------- -->
