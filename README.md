@@ -18,11 +18,15 @@ For further documentation see [carray_capi.h](./carray_capi.h).
    * [mtmsg] - this Lua module invokes the *Lua Carray C API* to make it possible to pass
                arrays of primitive numeric C data types to other threads.
 
+   * [mtstates] - this Lua module invokes the *Lua Carray C API* to make it possible to pass
+                  arrays of primitive numeric C data types to other states.
+
 <!-- ---------------------------------------------------------------------------------------- -->
 
 [Lua]:      https://www.lua.org
 [carray]:   https://github.com/osch/lua-carray
 [mtmsg]:    https://github.com/osch/lua-mtmsg
+[mtstates]: https://github.com/osch/lua-mtstates
 
 
 <!-- ---------------------------------------------------------------------------------------- -->
