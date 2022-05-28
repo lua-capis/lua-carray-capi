@@ -21,6 +21,11 @@ For further documentation see [carray_capi.h](./carray_capi.h).
    * [mtstates] - this Lua module invokes the *Lua Carray C API* to make it possible to pass
                   arrays of primitive numeric C data types to other states.
 
+   * [ljack] - audio sender processor objects are able to send audio samples that can be
+               passed as *float32* [carray] objects from non realtime threads to a JACK AUDIO 
+               OUT port or other realtime audio processor objects, see [ljack.new_audio_sender()] 
+               and [ljack/example05.lua].
+
 <!-- ---------------------------------------------------------------------------------------- -->
 
 [Lua]:      https://www.lua.org
@@ -28,6 +33,9 @@ For further documentation see [carray_capi.h](./carray_capi.h).
 [mtmsg]:    https://github.com/osch/lua-mtmsg
 [mtstates]: https://github.com/osch/lua-mtstates
 
+[ljack]:                     https://github.com/osch/lua-ljack
+[ljack/example05.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example05.lua
+[ljack.new_audio_sender()]:  https://github.com/osch/lua-ljack/blob/master/doc/README.md#ljack_new_audio_sender
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
