@@ -23,8 +23,13 @@ For further documentation see [carray_capi.h](./carray_capi.h).
 
    * [ljack] - audio sender processor objects are able to send audio samples that can be
                passed as *float32* [carray] objects from non realtime threads to a JACK AUDIO 
-               OUT port or other realtime audio processor objects, see [ljack.new_audio_sender()] 
-               and [ljack/example05.lua].
+               OUT port or other realtime audio processor objects, see [ljack.new_audio_sender()], 
+               [ljack/example05.lua] and [ljack/example06.lua]
+
+   * [ljack] - midi sender and receiver objects are able to send or receive midi event bytes 
+               that can be passed as 8-bit integer [carray] objects from/to non realtime threads 
+               to a JACK MIDI port or other realtime audio processor objects, see 
+               [ljack.new_midi_sender()], [ljack.new_midi_receiver()] and [ljack/example07.lua].
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
@@ -35,7 +40,11 @@ For further documentation see [carray_capi.h](./carray_capi.h).
 
 [ljack]:                     https://github.com/osch/lua-ljack
 [ljack/example05.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example05.lua
+[ljack/example06.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example06.lua
+[ljack/example07.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example07.lua
 [ljack.new_audio_sender()]:  https://github.com/osch/lua-ljack/blob/master/doc/README.md#ljack_new_audio_sender
+[ljack.new_midi_sender()]:  https://github.com/osch/lua-ljack/blob/master/doc/README.md#ljack_new_midi_sender
+[ljack.new_midi_receiver()]:  https://github.com/osch/lua-ljack/blob/master/doc/README.md#ljack_new_midi_receiver
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
