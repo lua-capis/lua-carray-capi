@@ -29,7 +29,8 @@ For further documentation see [carray_capi.h](./carray_capi.h).
    * [ljack] - midi sender and receiver objects are able to send or receive midi event bytes 
                that can be passed as 8-bit integer [carray] objects from/to non realtime threads 
                to a JACK MIDI port or other realtime audio processor objects, see 
-               [ljack.new_midi_sender()], [ljack.new_midi_receiver()] and [ljack/example07.lua].
+               [ljack.new_midi_sender()], [ljack.new_midi_receiver()], [ljack/example03.lua]
+               and [ljack/example04.lua].
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
@@ -39,6 +40,8 @@ For further documentation see [carray_capi.h](./carray_capi.h).
 [mtstates]: https://github.com/osch/lua-mtstates
 
 [ljack]:                     https://github.com/osch/lua-ljack
+[ljack/example03.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example03.lua
+[ljack/example04.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example04.lua
 [ljack/example05.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example05.lua
 [ljack/example06.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example06.lua
 [ljack/example07.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example07.lua
