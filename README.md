@@ -32,12 +32,16 @@ For further documentation see [carray_capi.h](./carray_capi.h).
                 [auproc.new_midi_receiver()], [ljack/example03.lua]
                 and [ljack/example04.lua].
 
+   * [lfft]   - Fast Fourier Transformation operates on arrays of *float* or *double* element 
+                type.
+
 <!-- ---------------------------------------------------------------------------------------- -->
 
 [Lua]:      https://www.lua.org
 [carray]:   https://github.com/osch/lua-carray
 [mtmsg]:    https://github.com/osch/lua-mtmsg
 [mtstates]: https://github.com/osch/lua-mtstates
+[lfft]:     https://github.com/osch/lua-lfft
 
 [ljack]:                     https://github.com/osch/lua-ljack
 [ljack/example03.lua]:       https://github.com/osch/lua-ljack/blob/master/examples/example03.lua
